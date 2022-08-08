@@ -1,17 +1,18 @@
 {
-  "name": "@suger-tdy/typescript-starter",
+  "name": "@suger-tdy/tsup-starter",
   "version": "0.0.0",
   "packageManager": "pnpm@7.9.0",
-  "description": "starter project for typescript",
+  "description": "starter project for typescript (tsup)",
   "keywords": [
     "typescript-starter",
-    "ts-starter"
+    "ts-starter",
+    "tsup-starter"
   ],
   "license": "MIT",
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tangdaoyuan/typescript-starter.git"
+    "url": "git+https://github.com/tangdaoyuan/tsup-starter.git"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -42,9 +43,9 @@
     "release": "bumpp --tag --commit --push && pnpm publish"
   },
   "bugs": {
-    "url": "https://github.com/tangdaoyuan/typescript-starter/issues"
+    "url": "https://github.com/tangdaoyuan/tsup-starter/issues"
   },
-  "homepage": "https://github.com/tangdaoyuan/typescript-starter#readme",
+  "homepage": "https://github.com/tangdaoyuan/tsup-starter#readme",
   "dependencies": {
     "picocolors": "^1.0.0"
   },

@@ -1,3 +1,3 @@
-# @suger-tdy/typescript-starter
+# @suger-tdy/tsup-starter
 > 
-> My starter project for typescript.
+> My starter project for typescript(tsup).

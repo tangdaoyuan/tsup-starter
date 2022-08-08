@@ -20,7 +20,7 @@
       "@/*": [
         "src/*"
       ],
-      "@suger-tdy/typescript-starter/*": [
+      "@suger-tdy/tsup-starter/*": [
         "dist/*"
       ]
     }

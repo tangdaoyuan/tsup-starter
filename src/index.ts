@@ -1,1 +1,1 @@
-export default '@suger-tdy/typescript-starter'
+export default '@suger-tdy/tsup-starter'
