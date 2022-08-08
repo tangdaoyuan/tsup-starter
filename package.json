@@ -14,14 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/tangdaoyuan/tsup-starter.git"
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.js"
     },
     "./*": "./*"
   },
@@ -37,8 +37,8 @@
     "lint:fix": "eslint . --fix",
     "start": "tsx ./src/index.ts",
     "play": "npm -C playground run dev",
-    "stub": "unbuild --stub",
-    "build": "unbuild",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp --tag --commit --push && pnpm publish"
   },
@@ -54,9 +54,9 @@
     "bumpp": "8.2.1",
     "esbuild": "0.14.53",
     "eslint": "8.21.0",
+    "tsup": "^6.2.1",
     "tsx": "3.8.0",
     "typescript": "4.7.4",
-    "unbuild": "0.7.6",
     "vite": "3.0.4",
     "vitest": "0.21.0"
   },
